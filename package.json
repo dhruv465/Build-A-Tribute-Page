@@ -1,0 +1,26 @@
+{
+  "name": "build-a-tribute-page",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp.com Responsive Web Design Certification Project - \"Build A Tribute Page\" https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/input.css -o ./src/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhruv465/Build-A-Tribute-Page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhruv465/Build-A-Tribute-Page/issues"
+  },
+  "homepage": "https://github.com/dhruv465/Build-A-Tribute-Page#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "preline": "^2.0.3"
+  }
+}
